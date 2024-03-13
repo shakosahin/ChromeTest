@@ -1,6 +1,6 @@
 Feature: Validation of login scenarios
 
-  Background:
+#  Background:
   #Given user is navigated to HRMS Application
 
   @smoke @sprint12 @regression @latest @testo

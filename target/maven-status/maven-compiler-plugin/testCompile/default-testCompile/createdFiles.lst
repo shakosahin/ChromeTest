@@ -1,5 +1,4 @@
 utils/CommonMethods.class
-runners/Regression.class
 steps/EmployeeSearchSteps.class
 pages/DashboardPage.class
 APISteps/APIWorkflowSteps.class
@@ -12,9 +11,7 @@ steps/LoginSteps.class
 pages/EmAddPage.class
 utils/DBUtils.class
 steps/EmployeeAddSteps.class
-runners/APIRunnerClass.class
 API/HardCodedExamples.class
-runners/FailedRunner.class
 runners/RunnerClass.class
 utils/ConfigReader.class
 utils/Constants.class
@@ -23,4 +20,3 @@ utils/APIConstants.class
 pages/EmSearchPage.class
 pages/LoginPage.class
 steps/PageInitializers.class
-runners/Smoke.class

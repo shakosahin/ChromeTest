@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: runners.RunnerClass
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.429 s <<< FAILURE! - in runners.RunnerClass
+Validation of login scenarios.Admin login  Time elapsed: 8.737 s  <<< FAILURE!
+java.lang.AssertionError
+
