@@ -32,9 +32,9 @@ public class CommonMethods extends PageInitializers {
                 options.addArguments("--headless=new");
                 options.addArguments("--no-sandbox");
                 options.addArguments("--disable-dev-shm-usage");
+//                driver = new ChromeDriver(options);
+                WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver(options);
-//                WebDriverManager.chromedriver().setup();
-//                driver = new ChromeDriver();
                 break;
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();

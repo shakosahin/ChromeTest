@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>CucumberFrameworkBatch12Me</td>
         <td>1</td>
-      <td>12 Mar 2024, 20:35</td>
+      <td>12 Mar 2024, 20:41</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@smoke</td>
-          <td      class="passed"    >2</td>
-          <td      class="failed"    >1</td>
+          <td      class="passed"    >3</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">3</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="1104572000">1.104</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="2903499000">2.903</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -187,12 +187,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.104</span>
+  <span class="lead-duration duration">2.903</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Admin login</span>
 
@@ -203,7 +203,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
@@ -225,7 +225,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">steps.Hooks.start()</span>
 
-  <span class="lead-duration duration">8.632</span>
+  <span class="lead-duration duration">10.972</span>
 
           </div>
 
@@ -242,9 +242,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -254,7 +254,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -262,7 +262,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user enters valid admin credentials</span>
 
-  <span class="lead-duration duration">0.578</span>
+  <span class="lead-duration duration">0.527</span>
 
 </div>
 
@@ -289,7 +289,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks on login button</span>
 
-  <span class="lead-duration duration">0.502</span>
+  <span class="lead-duration duration">2.340</span>
 
 </div>
 
@@ -312,11 +312,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then failed">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">admin user is successfully logged in</span>
 
-  <span class="lead-duration duration">0.023</span>
+  <span class="lead-duration duration">0.035</span>
 
 </div>
 
@@ -324,45 +324,6 @@ $(document).ready(function() {
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.openqa.selenium.NoSuchWindowException:</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=122.0.6261.128)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.4', java.version: '18.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0806403e20f84ea07b62f52cf42d8cfd, findElement {value=//a[@id='welcome'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.128, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: /var/folders/k6/v587rhlx46d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61760/devtoo..., se:cdpVersion: 122.0.6261.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0806403e20f84ea07b62f52cf42d8cfd
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)
-	at steps.LoginSteps.adminUserIsSuccessfullyLoggedIn(LoginSteps.java:12)
-	at &#10045;.admin user is successfully logged in(file:///Users/sakirsahin/IdeaProjects/CucumberFrameworkBatch12Me/src/test/resources/features/Login.feature:10)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -382,7 +343,7 @@ Session ID: 0806403e20f84ea07b62f52cf42d8cfd
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -394,13 +355,13 @@ Session ID: 0806403e20f84ea07b62f52cf42d8cfd
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">steps.Hooks.end(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.124</span>
+  <span class="lead-duration duration">0.107</span>
 
           </div>
 
