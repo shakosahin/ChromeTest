@@ -1,7 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: runners.RunnerClass
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.429 s <<< FAILURE! - in runners.RunnerClass
-Validation of login scenarios.Admin login  Time elapsed: 8.737 s  <<< FAILURE!
-java.lang.AssertionError
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.766 s <<< FAILURE! - in runners.RunnerClass
+Validation of login scenarios.Admin login  Time elapsed: 10.002 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.128)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.4', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0806403e20f84ea07b62f52cf42d8cfd, findElement {value=//a[@id='welcome'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.128, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: /var/folders/k6/v587rhlx46d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61760}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:61760/devtoo..., se:cdpVersion: 122.0.6261.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0806403e20f84ea07b62f52cf42d8cfd
 
